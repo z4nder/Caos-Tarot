@@ -1,0 +1,155 @@
+[
+    {
+        "name": "O louco",
+        "number": "00",
+        "description": "",
+        "src": ""
+    },
+    {
+        "name": "O Mágo",
+        "number": "01",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "A sacerdotisa",
+        "number": "02",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Imperatriz",
+        "number": "03",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Imperador",
+        "number": "04",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Sacerdote",
+        "number": "05",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "Os Enamorados",
+        "number": "06",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O carro",
+        "number": "07",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Justiça ",
+        "number": "08",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Eremita",
+        "number": "09",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "Roda Da Fortuna",
+        "number": "10",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Força ",
+        "number": "11",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Enforcado",
+        "number": "12",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "Morte",
+        "number": "13",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "Temperança ",
+        "number": "14",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Diabo",
+        "number": "15",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Torre",
+        "number": "16",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "A estrela",
+        "number": "17",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Lua ",
+        "number": "18",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Sol",
+        "number": "19",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Julgamento",
+        "number": "20",
+        "description": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Mundo",
+        "number": "21",
+        "description": "",
+        "src": ""
+
+    }
+]

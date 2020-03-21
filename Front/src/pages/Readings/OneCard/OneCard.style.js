@@ -16,8 +16,8 @@ export default StyleSheet.create({
     justifyContent: 'center',
     //Horizontal Align
     alignItems: 'center',
-    
-    backgroundColor: 'green'
+
+    backgroundColor: 'grey'
     //padding: 0
   },
 });

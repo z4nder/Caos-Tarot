@@ -8,13 +8,16 @@ class Card extends Component {
       image: "",
     }
   }
+  componentDidMount(){
+    console.log("Props", this.props.images[3].src)
+  }
   render() {
     
     return (
       <View>
          <Image
-            style={{width: 320, height: 450}}
-            source={this.props.images[0].src}
+            style={{width: 250, height: 450}}
+            source={this.props.images[2].src}
           /> 
       </View>
     );
