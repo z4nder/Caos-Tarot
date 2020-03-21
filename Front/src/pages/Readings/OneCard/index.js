@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Card from '../../../components/Card'
 import {View} from 'react-native';
+import { Bars } from 'react-native-loader';
 
-// import { Container } from './styles';
-
+// Styles
+import styles from "./OneCard.style";
 class OneCard extends Component {
     constructor(props) { 
         super(props);         
@@ -25,7 +26,6 @@ class OneCard extends Component {
 		// 		/>
 		// 	);
         // })
-        console.log("this.state.images", this.state.images)
         let items = 
             <Card 
                 images={this.state.images}
@@ -46,9 +46,17 @@ class OneCard extends Component {
     
     render (){
         return(
-            this.state.isLoading
-            ? <View></View>   
-            : this.renderCards()
+            <View  style={styles.container}>
+                <View style={styles.content}>
+                {this.state.isLoading
+                ?
+                <Bars size={10} color="#111110"/>
+                    
+                :                
+                this.renderCards()}
+                </View>
+            </View> 
+            
            
         )      
    }
