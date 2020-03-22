@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Blue Fluke Tarot",
     "slug": "Front",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -11,7 +11,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mipmap-xxxhdpi/ic_launcher.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -25,6 +25,11 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.tecnocaos.caostarot",
+      "versionCode": 1
+    },
+    "description": ""
   }
 }
