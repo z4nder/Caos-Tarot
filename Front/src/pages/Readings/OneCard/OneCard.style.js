@@ -1,23 +1,28 @@
 import { StyleSheet } from "react-native";
-import {
-  BootstrapColors
-} from '../../../Themes'
+import { Fonts, Colors } from '../../../Themes'
 
 export default StyleSheet.create({ 
   container: {
     flex: 1,
-    flexDirection: 'row',
+    flexDirection: 'column',
     backgroundColor: 'red'
   },
   content: {
-    flex: 1,
+    flex: 6,
     flexDirection: 'column',
     //Vertical Align
     justifyContent: 'center',
     //Horizontal Align
     alignItems: 'center',
 
-    backgroundColor: 'grey'
+    backgroundColor: Colors.grey
     //padding: 0
+  },
+  button: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: Colors.grey
   },
 });

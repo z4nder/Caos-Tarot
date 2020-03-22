@@ -3,6 +3,7 @@ import Card from '../../../components/Card'
 import {View} from 'react-native';
 import { Bars } from 'react-native-loader';
 import cards_info from '../../../assets/cards_info.json'
+import FullButton from '../../../components/FullButton'
 
 // Styles
 import styles from "./OneCard.style";
@@ -11,7 +12,8 @@ class OneCard extends Component {
         super(props);         
         this.state = {
             images: [],
-            isLoading: true
+            isLoading: true,
+            cardSelected: null
         };
     }   
 
@@ -23,6 +25,7 @@ class OneCard extends Component {
         let items = 
             <Card 
                 images={this.state.images}
+                number={this.state.cardSelected}
             />
 		return items;	
 	}	
@@ -39,6 +42,17 @@ class OneCard extends Component {
         }        
     }
 
+    getRandomArbitrary(max) {
+        return Math.floor(Math.random() * max);
+    }
+
+    drawnCard() {
+        let cardNumber = this.getRandomArbitrary(21)
+        this.setState({
+            cardSelected: cardNumber
+        })
+    }
+
     render (){
         return(
             <View  style={styles.container}>
@@ -49,6 +63,13 @@ class OneCard extends Component {
                     
                 :                
                 this.renderCards()}
+                </View>
+
+                <View style={styles.button}>
+                    <FullButton
+                        text='Tirar uma carta'
+                        onPress={() => this.drawnCard()}
+                    />
                 </View>
             </View> 
             
@@ -80,6 +101,7 @@ class OneCard extends Component {
         cards_info[19].src = require("../../../assets/BlueFluke/19.jpg")
         cards_info[20].src = require("../../../assets/BlueFluke/20.jpg")
         cards_info[21].src = require("../../../assets/BlueFluke/21.jpg")
+        cards_info[22].src = require("../../../assets/BlueFluke/BackGround.jpg")
 
        return cards_info
     } catch (error) {

@@ -1,23 +1,35 @@
 import React, { Component } from 'react';
 import {View, Image, Text} from 'react-native';
+// Styles
+import styles from "./card.style";
 
 class Card extends Component {
   constructor(props) {
     super(props); 
     this.state = {
-      image: "",
+      image: props.images[22].src,
     }
   }
   componentDidMount(){
-    console.log("Props", this.props.images[3].src)
+   
+  } 
+
+  async componentWillReceiveProps(newProps) {
+    const oldProps = this.props   
+    if(oldProps.number != newProps.number){
+      this.setState({
+        image: this.props.images[this.props.number].src,
+      })
+    }
   }
-  render() {
-    
+
+  render() { 
+    console.log(this.state.image)
     return (
       <View>
-         <Image
-            style={{width: 250, height: 450}}
-            source={this.props.images[2].src}
+         <Image 
+            style={styles.image}
+            source={this.state.image}
           /> 
       </View>
     );
