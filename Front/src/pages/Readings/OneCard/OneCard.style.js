@@ -9,20 +9,28 @@ export default StyleSheet.create({
   },
   content: {
     flex: 6,
-    flexDirection: 'column',
+    flexDirection: 'row',
     //Vertical Align
     justifyContent: 'center',
     //Horizontal Align
     alignItems: 'center',
-
     backgroundColor: Colors.grey
     //padding: 0
   },
   button: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: Colors.grey
   },
+  clickContent: {
+    margin: 10
+  },
+  numberInput: {
+    padding: 10,
+    height: 40,
+    borderColor: 'gray', 
+    borderWidth: 1
+  }
 });
