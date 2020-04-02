@@ -5,8 +5,8 @@ import { Bars } from 'react-native-loader';
 import FullButton from '../../../components/FullButton'
 
 // Styles
-import styles from "./OneCard.style";
-class OneCard extends Component {
+import styles from "./DrawnCards.style";
+class DrawnCards extends Component {
     constructor(props) { 
         super(props);         
         this.state = {
@@ -18,6 +18,10 @@ class OneCard extends Component {
     }   
 
     async componentDidMount(){
+        console.log("this.props.navigation", this.props.route.params.cardQuantity);   
+        this.setState({
+           cardQuantity: this.props.route.params.cardQuantity
+        })     
     }
 
     renderCards() { 
@@ -67,19 +71,6 @@ class OneCard extends Component {
                     </ScrollView>
                 }
                 </View>
-
-                <View style={styles.button}>
-                    <Text>Numero de cartas</Text>
-                    <TextInput
-                        style={styles.numberInput}
-                        onChangeText={cardQuantity => this.setState({ cardQuantity })}
-                        value={this.state.cardQuantity}
-                    />
-                    {/* <FullButton
-                        text='Fazer tiragem'
-                        onPress={() => this.drawnCard()}
-                    /> */}
-                </View>
             </View> 
             
            
@@ -88,5 +79,5 @@ class OneCard extends Component {
 
 }
 
-export default OneCard
+export default DrawnCards
 

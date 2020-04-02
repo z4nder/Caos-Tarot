@@ -1,11 +1,22 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import React, {Component} from 'react';
 import { Ionicons } from '@expo/vector-icons';
 
-import OneCard from './pages/Readings/OneCard';
+import NumberOfCards from './pages/Readings/NumberOfCards';
+import DrawnCards from './pages/Readings/DrawnCards';
 const Tab = createBottomTabNavigator()
+const Stack = createStackNavigator()
 
+function DrawnSteps() {
+    return(
+        <Stack.Navigator>
+            <Stack.Screen name="NumberOfCards" component={NumberOfCards}></Stack.Screen>
+            <Stack.Screen name="DrawnCards" component={DrawnCards}></Stack.Screen>
+        </Stack.Navigator>    
+    )
+}
 
 export default function Routes() {
     return (
@@ -14,7 +25,7 @@ export default function Routes() {
                 screenOptions={({ route }) => ({
                     tabBarIcon: ({ focused, color, size }) => {
                         let iconName;        
-                        if (route.name === 'Uma Carta') {
+                        if (route.name === 'Nova Tiragem') {
                         iconName = focused
                             ? 'ios-eye'
                             : 'ios-eye-outline';
@@ -27,7 +38,7 @@ export default function Routes() {
                     inactiveTintColor: 'gray',
                 }}
             >
-                <Tab.Screen name="Uma Carta" component={OneCard} />
+                <Tab.Screen name="Nova Tiragem" component={DrawnSteps} />
             </Tab.Navigator>
         </NavigationContainer>
      );
