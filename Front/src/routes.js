@@ -2,7 +2,9 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import React, {Component} from 'react';
+
 import { Ionicons } from '@expo/vector-icons';
+import { Fonts, Colors } from './Themes'
 
 import NumberOfCards from './pages/Readings/NumberOfCards';
 import DrawnCards from './pages/Readings/DrawnCards';
@@ -11,7 +13,14 @@ const Stack = createStackNavigator()
 
 function DrawnSteps() {
     return(
-        <Stack.Navigator>
+        <Stack.Navigator
+        initialRouteName="NumberOfCards"
+        headerMode="screen"
+        screenOptions={{
+          headerTintColor: 'white',
+          headerStyle: { backgroundColor: Colors.darkGrey },
+        }}
+        >
             <Stack.Screen name="NumberOfCards" component={NumberOfCards}></Stack.Screen>
             <Stack.Screen name="DrawnCards" component={DrawnCards}></Stack.Screen>
         </Stack.Navigator>    
@@ -34,8 +43,9 @@ export default function Routes() {
                     },
                 })}
                 tabBarOptions={{
-                    activeTintColor: 'grey',
-                    inactiveTintColor: 'gray',
+                    activeTintColor: 'white',
+                    inactiveTintColor: 'white',
+                    tabStyle: { backgroundColor: Colors.darkGrey },
                 }}
             >
                 <Tab.Screen name="Nova Tiragem" component={DrawnSteps} />

@@ -15,11 +15,9 @@ class NumberOfCards extends Component {
     }   
 
     async componentDidMount(){
-        console.log("Mount", this.state.cardQuantity);        
     }
 
     redirectToDrawnCard(){
-       console.log("Mount", this.cardQuantity);  
        this.props.navigation.navigate('DrawnCards', {cardQuantity: this.state.cardQuantity})
     }
     

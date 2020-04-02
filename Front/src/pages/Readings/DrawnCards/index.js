@@ -18,7 +18,6 @@ class DrawnCards extends Component {
     }   
 
     async componentDidMount(){
-        console.log("this.props.navigation", this.props.route.params.cardQuantity);   
         this.setState({
            cardQuantity: this.props.route.params.cardQuantity
         })     
