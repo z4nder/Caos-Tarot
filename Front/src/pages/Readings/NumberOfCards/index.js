@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../../../components/Card'
-import {View, TouchableOpacity, ScrollView, Text, TextInput} from 'react-native';
+import {View, TouchableOpacity, ScrollView, Text, TextInput, Alert} from 'react-native';
 import { Bars } from 'react-native-loader';
 import FullButton from '../../../components/FullButton'
 
@@ -11,6 +11,9 @@ class NumberOfCards extends Component {
         super(props);         
         this.state = {
             cardQuantity: 0,
+            valid:{
+                cardQuantity: false
+            } 
         };
     }   
 
@@ -18,7 +21,24 @@ class NumberOfCards extends Component {
     }
 
     redirectToDrawnCard(){
-       this.props.navigation.navigate('DrawnCards', {cardQuantity: this.state.cardQuantity})
+        if(this.cardQuantityValidate())  this.props.navigation.navigate('DrawnCards', {cardQuantity: this.state.cardQuantity})      
+    }
+
+    cardQuantityValidate(){
+        if(this.state.cardQuantity == 0){
+            Alert.alert(
+                'Quantidade de Cartas',
+                'Selecione o número de cartas'
+            );
+            return false;
+        }else if(this.state.cardQuantity > 22){
+            Alert.alert(
+                'Quantidade de Cartas',
+                'O número máximo de cartas permitidas é 22'
+            );
+            return false;
+        }
+        return true;
     }
     
    
@@ -37,10 +57,20 @@ class NumberOfCards extends Component {
                         />                   
                     </View>
                     <View style={styles.button}>
-                        <FullButton
-                            text='Tirar cartas'
-                            onPress={() => this.redirectToDrawnCard()}
-                        />
+                        {this.state.valid.cardQuantity
+                        ?
+                            <FullButton
+                                text='Tirar cartas'
+                                disable={false}
+                                onPress={() => this.redirectToDrawnCard()}
+                            />
+                        :
+                            <FullButton
+                                text='Tirar cartas'
+                                disable={true}
+                                onPress={() => this.redirectToDrawnCard()}
+                            />
+                        }
                     </View>
                 </View>               
             </View> 
