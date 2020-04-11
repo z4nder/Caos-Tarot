@@ -25,17 +25,20 @@ class DrawnCards extends Component {
         this.renderCards()
     }
 
-    renderCards() {
-        let items =  []        
+    async renderCards() {
+        let items =  []         
         for (let index = 0; index < this.props.route.params.cardQuantity; index++) {
             let content =  {}
+            let randomNumber = null      
             content.id = index
-            content.cardPosition = this.getRandomArbitrary(21) 
+            do {
+                randomNumber = Math.floor(Math.random() * this.props.route.params.cardQuantity)                
+            } while(this.isEquals(items, randomNumber));     
+            content.cardPosition =  randomNumber    
             content.showCard = false    
 
             items.push(content)
         }
-        console.log("items", items);
         this.setState({
             isLoading: false,
             cardsData: items,
@@ -43,35 +46,20 @@ class DrawnCards extends Component {
     }
    
     drawnCard(index) {
-        let content = this.state.cardsData
-        console.log("this.state.cardsData", this.state.cardsData);        
+        let content = this.state.cardsData 
         content[index].cardFliped = true
         this.setState({
             cardsData: content,
         })       
     }
 
-    getRandomArbitrary(max) {
-        return Math.floor(Math.random() * max);
+    isEquals(items, newNumber) {     
+        let equals = false
+        for (let index = 0; index < items.length; index++) {
+            if(items[index].cardPosition == newNumber) equals = true         
+        }       
+        return equals  
     }
-
-    // haveEqualsValue(newNumber) {
-    //     for (let index = 0; index < this.state.cardQuantity.length; index++) {
-    //         if(this.state.cardQuantity[index] == newNumber) return true         
-    //     }
-    //     return false
-    //  }    
-
-    //  getRandomArbitrary(max) {        
-    //      let equals = false
-    //      let number = null
-    //      do {
-    //          number = Math.floor(Math.random() * max)
-    //          equals = this.haveEqualsValue(number)
-    //      } while (!equals);
-
-    //      return number;
-    //  }
 
     render() {
         return (
