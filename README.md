@@ -15,4 +15,4 @@
 - [ ] Adicionar mais funções no menu
 - [ ] Quando uma carta já foi tirada mostrar informaçoes sobre ela ao clicar
 - [x] Animação de virar a carta
-- [] Animação de Sortear Cartas
+- [ ] Animação de Sortear Cartas
