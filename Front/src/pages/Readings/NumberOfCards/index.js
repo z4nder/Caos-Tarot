@@ -53,7 +53,7 @@ class NumberOfCards extends Component {
                             onChangeText={value => this.setState({ cardQuantity: value })}
                             keyboardType={'numeric'}
                             maxLength={2}
-                            value={this.state.cardQuantity}
+                            value={`${this.state.cardQuantity}`} 
                         />                   
                     </View>
                     <View style={styles.button}>

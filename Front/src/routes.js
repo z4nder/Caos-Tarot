@@ -37,7 +37,7 @@ export default function Routes() {
                         if (route.name === 'Nova Tiragem') {
                         iconName = focused
                             ? 'ios-eye'
-                            : 'ios-eye-outline';
+                            : 'ios-eye';
                         }         
                         return <Ionicons name={iconName} size={size} color={color} />;
                     },

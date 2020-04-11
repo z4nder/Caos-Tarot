@@ -8,7 +8,7 @@ export default StyleSheet.create({
     backgroundColor: 'red'
   },
   content: {
-    flex: 6,
+    flex: 1,
     flexDirection: 'row',
     //Vertical Align
     justifyContent: 'center',

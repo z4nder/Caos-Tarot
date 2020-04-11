@@ -5,6 +5,7 @@ import styles from "./card.style";
 
 //Content
 import cards_info from '../../assets/cards_info.json'
+import CardFlip from 'react-native-card-flip';
 
 class Card extends Component {
   constructor(props) {
@@ -48,19 +49,28 @@ class Card extends Component {
 
   render() { 
     return (
-      <View>
-         {!this.state.show ? 
-            <Image 
+    <View style={styles.container}>
+      <CardFlip style={styles.cardContainer} ref={card => (this.card = card)}>
+        <TouchableOpacity
+          activeOpacity={1}
+          style={[styles.card]}
+          onPress={() => this.card.flip()}>
+          <Image 
               style={styles.image}
               source={this.state.backGround.src}
-            /> 
-          :
-            <Image 
+          /> 
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={1}
+          style={[styles.card]}
+          onPress={() => this.card.flip()}>
+          <Image 
               style={styles.image}
               source={this.state.selectedImage.src}
-            />
-         }
-      </View>
+          /> 
+        </TouchableOpacity>
+      </CardFlip>
+    </View>
     );
   }
 

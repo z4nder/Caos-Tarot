@@ -86,7 +86,7 @@ class DrawnCards extends Component {
                                             />
                                         </TouchableOpacity>
                                     )}
-                                    keyExtractor={item => item.id}
+                                    keyExtractor={(item, index) => `card-i.${index}-item.${item.cardPosition}`}
                                 />
                         </ScrollView>
                     }
