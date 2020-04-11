@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blue Fluke Tarot",
+    "name": "Caos Tarot",
     "slug": "Front",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -32,6 +32,7 @@
       "package": "com.tecnocaos.caostarot",
       "versionCode": 1
     },
-    "description": ""
+    "description": "",
+    "githubUrl": "https://github.com/GadsDev/Caos-Tarot"
   }
 }
