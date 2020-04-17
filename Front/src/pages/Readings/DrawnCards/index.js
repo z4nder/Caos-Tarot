@@ -13,16 +13,19 @@ class DrawnCards extends Component {
             isLoading: true,
             cardsData: [],           
             cardQuantity: 0,
-            items: []
+            items: [],
         };
     }
 
     async componentDidMount() {
-
+      console.log("scrollViewRef", scrollViewRef);
+        
+      this.scrollViewRef.scrollToOffset({ offset: 4,  animated: false })
     }
 
+  
     async componentWillMount() {
-        this.renderCards()
+        this.renderCards()            
     }
 
     async renderCards() {
@@ -32,7 +35,7 @@ class DrawnCards extends Component {
             let randomNumber = null      
             content.id = index
             do {
-                randomNumber = Math.floor(Math.random() * this.props.route.params.cardQuantity)                
+                randomNumber = Math.floor(Math.random() * 22)                
             } while(this.isEquals(items, randomNumber));     
             content.cardPosition =  randomNumber    
             content.showCard = false    
@@ -59,7 +62,7 @@ class DrawnCards extends Component {
             if(items[index].cardPosition == newNumber) equals = true         
         }       
         return equals  
-    }
+    }  
 
     render() {
         return (
@@ -71,8 +74,12 @@ class DrawnCards extends Component {
                         <Bars size={10} color="#111110" />
 
                         :
-                        <ScrollView horizontal={true}>                            
+                        <ScrollView 
+                            horizontal={true}
+                        >                            
                                 <FlatList
+                                    ref={(ref) => { this.list = ref; }}
+
                                     horizontal={true}
                                     data={this.state.cardsData}
                                     renderItem={({ item, index }) => (
