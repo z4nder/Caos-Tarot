@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Card from '../../../components/Card'
 import { View, TouchableOpacity, ScrollView, Button, FlatList } from 'react-native';
 import { Bars } from 'react-native-loader';
+import FullButton from '../../../components/FullButton'
 import Carousel from 'react-native-snap-carousel';
 
 import { scrollInterpolator, animatedStyles } from '../../../animates/carouselAnimate';
@@ -79,9 +80,18 @@ class DrawnCards extends Component {
         );
     }
 
+    scrollToItem = () => {
+        this._carousel.snapToItem(4)
+    }
+
     render() {
         return (
-            <View style={styles.container}>                
+            <View style={styles.container}>
+                 <Button
+                    onPress={this.scrollToItem}
+                    title="Tap to scrollToItem"
+                    color="purple"
+                />
                 <View style={styles.content}>
                     {this.state.isLoading
                         ?
