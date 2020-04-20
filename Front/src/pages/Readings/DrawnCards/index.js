@@ -94,7 +94,7 @@ class DrawnCards extends Component {
                                 data={this.state.cardsData}
                                 renderItem={this.renderCarousel}
                                 sliderWidth={500}
-                                itemWidth={300}
+                                itemWidth={350}
                                 useScrollView={true}
 
                                 scrollInterpolator={scrollInterpolator}
