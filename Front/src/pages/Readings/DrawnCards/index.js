@@ -48,14 +48,6 @@ class DrawnCards extends Component {
         })   
     }
    
-    drawnCard(index) {
-        let content = this.state.cardsData 
-        content[index].cardFliped = true
-        this.setState({
-            cardsData: content,
-        })       
-    }
-
     isEquals(items, newNumber) {     
         let equals = false
         for (let index = 0; index < items.length; index++) {
@@ -67,12 +59,11 @@ class DrawnCards extends Component {
     renderCarousel = ({item, index}) => {
         return (           
             <TouchableOpacity
-                style={styles.clickContent}
-                onPress={() => this.drawnCard(index)}
+                style={styles.clickContent}              
             >
                 <Card
                     number={item.cardPosition}
-                    showCard={item.cardFliped}
+                    showCard={false}
                 />
             </TouchableOpacity>
                            

@@ -8,6 +8,7 @@ import { Fonts, Colors } from './Themes'
 
 import NumberOfCards from './pages/Readings/NumberOfCards';
 import DrawnCards from './pages/Readings/DrawnCards';
+import ListCards from './pages/ListCards/';
 const Tab = createBottomTabNavigator()
 const Stack = createStackNavigator()
 
@@ -35,21 +36,29 @@ export default function Routes() {
                     tabBarIcon: ({ focused, color, size }) => {
                         let iconName;        
                         if (route.name === 'Nova Tiragem') {
-                        iconName = focused
-                            ? 'ios-eye'
-                            : 'ios-eye';
-                        }         
-                        return <Ionicons name={iconName} size={size} color={color} />;
+                            iconName = focused
+                                ? 'ios-eye'
+                                : 'ios-eye';
+                                return <Ionicons name={iconName} size={size} color={color} />;
+                        }else if (route.name === 'Todas Cartas') {    
+                            iconName = focused
+                            ? 'ios-book'
+                            : 'ios-book';
+                            return <Ionicons name={iconName} size={size} color={color} />;
+                        }
+                        
                     },
                 })}
                 tabBarOptions={{
                     activeTintColor: 'white',
-                    inactiveTintColor: 'white',
+                    inactiveTintColor: 'black',
                     tabStyle: { backgroundColor: Colors.darkGrey },
                 }}
             >
                 <Tab.Screen name="Nova Tiragem" component={DrawnSteps} />
+                <Tab.Screen name="Todas Cartas" component={ListCards} />
             </Tab.Navigator>
+            
         </NavigationContainer>
      );
 }
