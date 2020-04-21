@@ -42,23 +42,6 @@ class ListCards extends Component {
         })
     }
 
-    drawnCard(index) {
-        let content = this.state.cardsData
-        content[index].cardFliped = true
-        this.setState({
-            cardsData: content,
-        })
-    }
-
-    isEquals(items, newNumber) {
-        let equals = false
-        for (let index = 0; index < items.length; index++) {
-            if (items[index].cardPosition == newNumber) equals = true
-        }
-        return equals
-    }
-
-
     render() {
         return (
             <View style={styles.container}>
@@ -70,7 +53,10 @@ class ListCards extends Component {
                         :
                         <ScrollView horizontal={true}>
                             <FlatList
-                                horizontal={true}
+                                contentContainerStyle={{alignSelf: 'flex-start'}}
+                                numColumns={this.state.cardsData.length / 2}
+                                // showsVerticalScrollIndicator={false}
+                                // showsHorizontalScrollIndicator={false}
                                 data={this.state.cardsData}
                                 renderItem={({ item, index }) => (
                                     <TouchableOpacity

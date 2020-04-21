@@ -4,24 +4,24 @@ import { Fonts, Colors } from '../../Themes'
 export default StyleSheet.create({
   image: {    
     borderRadius: 10,
-    width: 300, 
-    height: 550
-  },
-  container: {  
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor:Colors.grey,
-    paddingBottom: 50
-  },
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'contain'
+  },  
   cardContainer: {
-    borderRadius: 10,
-    width: 300, 
-    height: 550
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'contain'
+   
   },
   card: {
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'contain',
     borderRadius: 10,
-    width: 300, 
-    height: 550,
     backgroundColor:Colors.grey,
     borderRadius: 5,
     shadowColor: 'rgba(0,0,0,0.5)',

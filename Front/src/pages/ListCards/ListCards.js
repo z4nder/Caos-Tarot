@@ -13,11 +13,27 @@ export default StyleSheet.create({
     //Vertical Align
     justifyContent: 'center',
     //Horizontal Align
-    alignItems: 'center',
+    alignItems: 'stretch',
     backgroundColor: Colors.grey
     //padding: 0
   },
   clickContent: {
-    margin: 10,
-  }  
+    marginTop: 15,
+    width: 200, 
+    height: 300,
+  },
+  grid: {
+    justifyContent: 'center',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    flex: 1,
+  },
+  gridItem: {
+    margin:5,
+    width: 150,
+    height: 150,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  
 });

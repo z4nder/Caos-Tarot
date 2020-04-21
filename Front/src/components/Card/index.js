@@ -27,7 +27,6 @@ export default class Card extends Component {
 
     render() {
         return (
-            <View style={styles.container}>
                 <CardFlip style={styles.cardContainer} ref={card => (this.state.show = card)}>
                     <TouchableOpacity                       
                         activeOpacity={1}
@@ -49,7 +48,6 @@ export default class Card extends Component {
                         />
                     </TouchableOpacity>
                 </CardFlip>
-            </View>
         )
     }
    
