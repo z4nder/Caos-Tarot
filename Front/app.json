@@ -9,7 +9,7 @@
       "android",
       "web"
     ],
-    "version": "1.2.0",
+    "version": "1.3.0",
     "orientation": "portrait",
     "icon": "./assets/mipmap-xxxhdpi/ic_launcher.png",
     "splash": {
@@ -26,11 +26,11 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.tecnocaos.caostarot",
-      "buildNumber": "1.2.0"
+      "buildNumber": "1.3.0"
     },
     "android": {
       "package": "com.tecnocaos.caostarot",
-      "versionCode": 3
+      "versionCode": 4
     },
     "description": "",
     "githubUrl": "https://github.com/GadsDev/Caos-Tarot"
