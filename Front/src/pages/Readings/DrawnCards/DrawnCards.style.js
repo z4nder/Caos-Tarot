@@ -25,8 +25,8 @@ export default StyleSheet.create({
     backgroundColor: Colors.grey
   },
   clickContent: {
-    width: 300, 
-    height: 550,
+    width: '100%', 
+    height: '95%',
     margin: 10
   },
   numberInput: {

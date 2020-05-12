@@ -5,15 +5,24 @@ export default StyleSheet.create({
   container: {
     flex: 1,   
     backgroundColor: Colors.grey
+    
+  },
+  header: {
+    flex: 2,
+    alignItems: 'center',
+    paddingTop: 80,   
+  },
+  inputHeader: {
+    fontSize: 20,
   },
   inputArea: {
-    flex: 4,
+    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
+    
   },
   content: {
-    flex: 1,
-    flexDirection: 'column',
+    flex: 6,    
     alignItems: 'center',
   },
   button: {

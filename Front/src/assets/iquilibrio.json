@@ -1,0 +1,184 @@
+[
+    {
+        "name": "O louco",
+        "number": "00",
+        "description": "A carta o Louco tem uma curiosidade, ela é a última do Tarot, – a de número 22 – mas também é considerada a carta 0 (zero) porque tudo se renova e ela por sua vez é o início e fim do baralho. No fim das contas, o Louco não tem numeração certa.",
+        "help": "A penúltima carta de número 21 é o Mundo, ou seja, às vezes na vida é necessário retornamos para o ponto de partida, o novo ciclo e esta é a energia da carta do Tarot o Louco. Impetuosidade, vontade de viver, entusiasmo temporário, integridade e otimismo, essas são algumas definições deste arcano. Porém ela vem para quebrar o ciclo completo, exemplificando: cada carta do Tarot com seu número expressa uma história de evolução, atitudes que tomamos para cada área de nossa vida, o Louco surge então como um coringa, de repente ele entra na linha da jogada e a interrompe, nos jogando a um novo caminho e são nesses pontos que alguns planos e metas não são concluídos, mas novos horizontes são definidos.",
+        "src": ""
+    },
+    {
+        "name": "O Mágo",
+        "number": "01",
+        "description": "Enquanto o Louco sai pelo mundo desconhecido, cheio de vontade de conhecer todas as coisas, o Mago possui os instrumentos necessários para esses novos empreendimentos. Ele está com as ferramentas que precisa para desbravar um universo desconhecido de possibilidades.",
+        "help": "O significado da carta do O Mago no Tarot é objetivo e representa os talentos de comunicação e a capacidade de aprendizagem de quem está iniciando algo novo. A força de vontade, o conhecimento e a esperteza simbolizam essa carta. O Mago representa a primeira carta. Ela mostra a materialização dos seus desejos e adverte para que se aproveitem as oportunidades.",
+        "src": ""
+
+    },
+    {
+        "name": "A sacerdotisa",
+        "number": "02",
+        "description": "A Papisa ou A Sacerdotisa no Tarot: é  uma carta dirigida ao princípio feminino, indica a sabedoria e a paciência de saber ouvir para poder concluir. A Sacerdotisa está fortemente ligada ao poder de intuição e também a piedade.",
+        "help": "Os principais atributos da carta são: mistério, intuição, revelação, resignação, fé e sabedoria. Há diversas interpretações para o que significa a Sacerdotisa, a carta pode indicar o preparo para lidar com diversos tipos de questões com sabedoria ou a falta de afeto e dificuldade em expor sentimentos.",
+        "src": ""
+    },
+    {
+        "name": "A Imperatriz",
+        "number": "03",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Imperador",
+        "number": "04",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Sacerdote",
+        "number": "05",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "Os Enamorados",
+        "number": "06",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O carro",
+        "number": "07",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Justiça ",
+        "number": "08",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Eremita",
+        "number": "09",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "Roda Da Fortuna",
+        "number": "10",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Força ",
+        "number": "11",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Enforcado",
+        "number": "12",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "Morte",
+        "number": "13",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "Temperança ",
+        "number": "14",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Diabo",
+        "number": "15",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Torre",
+        "number": "16",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "A estrela",
+        "number": "17",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "A Lua ",
+        "number": "18",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Sol",
+        "number": "19",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Julgamento",
+        "number": "20",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "O Mundo",
+        "number": "21",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    },
+    {
+        "name": "BackGround",
+        "number": "2",
+        "description": "",
+        "help": "",
+        "src": ""
+
+    }
+]

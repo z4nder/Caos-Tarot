@@ -19,7 +19,7 @@ export default StyleSheet.create({
   },
   clickContent: {
     marginTop: 15,
-    width: 200, 
+    width: 180, 
     height: 300,
   },
   grid: {
@@ -29,9 +29,6 @@ export default StyleSheet.create({
     flex: 1,
   },
   gridItem: {
-    margin:5,
-    width: 150,
-    height: 150,
     justifyContent: 'center',
     alignItems: 'center',
   },

@@ -45,9 +45,13 @@ class NumberOfCards extends Component {
     render (){
         return(
             <View  style={styles.container}>
+                <View style={styles.header}>
+                    <Text style={styles.inputHeader }>Pense na pergunta </Text>
+                    <Text style={styles.inputHeader }>que deseja fazer</Text>
+                </View>
                 <View style={styles.content}>
                     <View style={styles.inputArea}>
-                        <Text style={styles.inputLabel }>Quantidade de cartas:</Text>
+                        <Text style={styles.inputLabel }>Escolha Quantidade de cartas:</Text>
                         <TextInput
                             style={styles.numberInput}
                             onChangeText={value => this.setState({ cardQuantity: value })}
