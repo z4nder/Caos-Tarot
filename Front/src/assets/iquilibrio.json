@@ -2,14 +2,14 @@
     {
         "name": "O louco",
         "number": "00",
-        "description": "A carta o Louco tem uma curiosidade, ela é a última do Tarot, – a de número 22 – mas também é considerada a carta 0 (zero) porque tudo se renova e ela por sua vez é o início e fim do baralho. No fim das contas, o Louco não tem numeração certa.",
+        "description": "    Esta carta simboliza a partida e a liberdade que talvez ainda não tenham sido concretizadas. Ela evoca o espírito que está desapegado das ilusões, dos desejos superficiais e que busca a essência. O personagem que ilustra este arcano parte sem retornar, sem levar muitas coisas. Apenas um cachorro, símbolo da amizade, tenta impedi-lo. O personagem olha para ele, mas continua andando. Esta carta exprime os impulsos inesperados, os golpes de sorte que dão os meios para nos libertarmos de uma situação, uma conexão ou uma relação. Com este arcano, os acontecimentos favoráveis não têm estabilidade ou durabilidade. Eles estão aqui para dar o impulso necessário para partir, para terminar uma etapa, para mudar o que for necessário. Esta carta expressa os eventos que trazem de volta a esperança, a confiança e a energia positiva. Pelo lado de fora, as escolhas e as decisões do consultante podem ser vistas como uma loucura. Nestas circunstâncias, o Louco sabe o que está fazendo e por quê. Ele não se deixa levar por ilusões, mas isto não o impede de aproveitar a sorte, mesmo sabendo que ela é efêmera. ",
         "help": "A penúltima carta de número 21 é o Mundo, ou seja, às vezes na vida é necessário retornamos para o ponto de partida, o novo ciclo e esta é a energia da carta do Tarot o Louco. Impetuosidade, vontade de viver, entusiasmo temporário, integridade e otimismo, essas são algumas definições deste arcano. Porém ela vem para quebrar o ciclo completo, exemplificando: cada carta do Tarot com seu número expressa uma história de evolução, atitudes que tomamos para cada área de nossa vida, o Louco surge então como um coringa, de repente ele entra na linha da jogada e a interrompe, nos jogando a um novo caminho e são nesses pontos que alguns planos e metas não são concluídos, mas novos horizontes são definidos.",
         "src": ""
     },
     {
         "name": "O Mágo",
         "number": "01",
-        "description": "Enquanto o Louco sai pelo mundo desconhecido, cheio de vontade de conhecer todas as coisas, o Mago possui os instrumentos necessários para esses novos empreendimentos. Ele está com as ferramentas que precisa para desbravar um universo desconhecido de possibilidades.",
+        "description": "    A primeira carta do Tarô de Marselha simboliza o ímpeto, a iniciativa, a criatividade. Tudo está livre de qualquer forma de dúvida e pensamentos existencialistas. Ela traduz o senso de iniciativa no objetivo de encontrar a felicidade, o poder, o sucesso e a conquista. Ela exprime, mesmo em face a situações complicadas, que uma solução será encontrada ao demonstrar habilidade, astúcia e diplomacia de acordo com as circunstâncias. Esta carta exprime que se deve ter confiança nos acontecimentos. Ela passa a mensagem de que se deve tomar iniciativas para evoluir na vida. Tudo com um espírito positivo, criativo e empreendedor. Esta carta exprime o livre arbítrio que abre o campo das possibilidades. Além disso, ela evoca o famoso golpe de genialidade, que vem como um raio e alcança grandes realizações. Este arcano representa, frequentemente, uma personalidade entusiasta que confia em suas qualidades, no futuro e em suas possibilidades.",
         "help": "O significado da carta do O Mago no Tarot é objetivo e representa os talentos de comunicação e a capacidade de aprendizagem de quem está iniciando algo novo. A força de vontade, o conhecimento e a esperteza simbolizam essa carta. O Mago representa a primeira carta. Ela mostra a materialização dos seus desejos e adverte para que se aproveitem as oportunidades.",
         "src": ""
 
@@ -17,14 +17,14 @@
     {
         "name": "A sacerdotisa",
         "number": "02",
-        "description": "A Papisa ou A Sacerdotisa no Tarot: é  uma carta dirigida ao princípio feminino, indica a sabedoria e a paciência de saber ouvir para poder concluir. A Sacerdotisa está fortemente ligada ao poder de intuição e também a piedade.",
+        "description": "    Esta carta evoca a evolução das coisas, dos acontecimentos, sem barulho e sem escândalos. Sem se preocupar muito com os acontecimentos materiais, ela se orienta mais na evolução pessoal. Ela passa a mensagem de que, se os acontecimentos não se concretizarem, é porque o consultante ou seus projetos ainda precisam de maturidade e reflexão. Ela exprime o tempo que é necessário para a elaboração de um projeto que se transformará, pois os pensamentos do consultante também evoluirão. Ela passa a mensagem de que o consultante deve controlar suas emoções e sua imaginação, o que evitará que ele aja de maneira impulsiva. Ela aconselha a não se deixar levar pelas confidências, mesmo que a tentação seja forte. Ela encoraja a ficar em silêncio, a manter uma distância, sejam quais forem as circunstâncias. Em uma tiragem, ela exprime que o tempo é o melhor aliado do consultante. Tentar apressar as coisas não traria nada de bom. A sabedoria é demonstrar uma paciência serena e inteligente.",
         "help": "Os principais atributos da carta são: mistério, intuição, revelação, resignação, fé e sabedoria. Há diversas interpretações para o que significa a Sacerdotisa, a carta pode indicar o preparo para lidar com diversos tipos de questões com sabedoria ou a falta de afeto e dificuldade em expor sentimentos.",
         "src": ""
     },
     {
         "name": "A Imperatriz",
         "number": "03",
-        "description": "",
+        "description": "    Dinamismo, inteligência, criatividade, educação são os principais trunfos da Imperatriz. Esta carta evoca os estudos, o conhecimento, a compreensão, a racionalidade. Tudo que for decidido de maneira racional e inteligente será coroado de sucesso. Ela convida a não se deixar levar pelas emoções, mas a reagir sob a influência do senso prático. A imperatriz simboliza as trocas, a comunicação, o diálogo, a transmissão de ideias, de sensações, de sentimentos. Ela exprime uma atmosfera feliz, agradável, encantadora, simpática. Ela traz paz, amor, apego, generosidade. Ela exprime que soluções serão encontradas ou que os problemas serão resolvidos se demonstrarmos inteligência e com discussões calmas e construtivas. Esta carta é marcada por uma Proteção Divina que acompanha o consultante na realização de seus desejos. Em uma tiragem, a Imperatriz aconselha que tenhamos educação em todas as circunstâncias. ",
         "help": "",
         "src": ""
 
@@ -32,7 +32,7 @@
     {
         "name": "O Imperador",
         "number": "04",
-        "description": "",
+        "description": "    Poder, energia viril, solidez e vontade são as principais características desta carta. Ela faz referência a tudo que é sólido, durável e que tem chances de durar. Ela exprime que o sucesso será subordinado a uma vontade construtiva e determinada. Ela evoca tudo que é legal e justo. Ela passa a mensagem de que, para ser bem sucedido, o consultante deve se aplicar e demonstrar lealdade, rigor e constância em todos os domínios. Em uma tiragem, ela pressagia que os projetos do consultante têm chances de durar, desde que sejam realizados sob a influência da vontade e do senso prático. O Imperador não deixa nada ao acaso. Ele faz as coisas com ordem e sem se influenciar pelos outros. É neste estado de espírito que o sucesso será garantido pelo consultante. Este arcano também evoca um homem obstinado e influente, que exerce uma influência determinante sobre o consultante ou sobre a realização de seus projetos. ",
         "help": "",
         "src": ""
 
@@ -40,7 +40,7 @@
     {
         "name": "O Sacerdote",
         "number": "05",
-        "description": "",
+        "description": "    Este arcano simboliza a sabedoria, os bons conselhos, a clemência. A carta evoca tudo que seja particularmente estável e durável. Ela exprime tudo aquilo que é desprovido de sentimentalismo, de paixão. Com o Papa, as afeições materiais, as paixões são completamente ultrapassadas. Ela exprime uma conquista em direção a uma abertura mais espiritual e meditativa. O desapego acontece ou está em vias de acontecer. Com esta carta, os julgamentos são imparciais, porém benevolentes. Conhecimento, intuição, discernimento são os principais valores desta carta. Tudo é feito pelo caminho da razão. As emoções são perfeitamente canalizadas. Os sentimentos e as ideias são marcados por seriedade, profundidade e fidelidade. Nem romance, nem glamour, esta carta exprime tudo que é racional. Ela exprime as tradições que são as marcas de uma conquista duradoura e discreta. Ela evoca a moralidade baseada nos princípios fundamentais que se distanciam dos maiores defeitos da natureza humana. ",
         "help": "",
         "src": ""
 
@@ -48,7 +48,7 @@
     {
         "name": "Os Enamorados",
         "number": "06",
-        "description": "",
+        "description": "    Esta carta evoca uma escolha que deve ser feita e que terá um impacto sobre o futuro. Ela representa uma situação instável, uma decisão difícil, uma pessoa dividida no plano sentimental. Ela encoraja a agir sem depender da influência de outras pessoas. Ela incita a fazer um balanço dos desejos profundos com calma e sem pressão externa. Este arcano adverte sobre a qualidade da reflexão, pois uma vez que a decisão for tomada, ela será irremediável. O consultante deve assumir suas responsabilidades. Esta carta simboliza a espera provocada pela indecisão ou pela falta de elementos que permitem a tomada de uma decisão. Ela também exprime um relacionamento ou um projeto que ainda não foram concretizados ou que estão em processo de formação. Consequentemente, agir sem refletir comprometeria seu desenvolvimento. Esta carta encoraja a tomada de decisões privada de intenções egoístas ou baseadas na satisfação e na ambição pessoal.",
         "help": "",
         "src": ""
 
@@ -56,7 +56,7 @@
     {
         "name": "O carro",
         "number": "07",
-        "description": "",
+        "description": "    Carta ilustrada por um personagem triunfante que conduz um carro puxado por dois cavalos. Ela exprime a vitória conquistada correndo atrás do objetivo com um espírito determinado. Ela evoca que todos os obstáculos serão superados, aconteça o que acontecer. Uma nova fase ativa e enérgica entra em ação. Esta carta encoraja a ir em frente com suas ideias e seus projetos, pois o sucesso está garantido. É preciso se desfazer de qualquer forma de hesitação e seguir em frente tendo certeza de suas qualidades e competências. Ela evoca as escolhas e as provas do passado que foram superadas e que uma nova era se anuncia. As dúvidas fazem parte do passado e se transformam em uma energia determinada e desejosa de mudança, de novidade. Esta carta exprime que não se deve se deixar levar por promessas ilusórias ou superficiais. É preciso ir diretamente ao que é essencial, útil e construtivo. O consultante deve contar com sua capacidade de empreendedorismo, de criar e de agir, pois é isso que leva ao sucesso.",
         "help": "",
         "src": ""
 
@@ -64,7 +64,7 @@
     {
         "name": "A Justiça ",
         "number": "08",
-        "description": "",
+        "description": "    Esta carta evoca que cada um colhe o que planta. Uma faca de dois gumes, este arcano recompensa as boas ações e pune as más. Esta carta evoca a justiça que está acima daquela da Humanidade, da qual ninguém consegue escapar. Ela exprime que, na existência, tudo é lógica e que cada ação leva a uma reação. Ela encoraja, então, a agir da maneira mais correta possível a fim de evitar a pancada de volta. Ela incita a aceitar aquilo que é desagradável, pois, no fundo, a justiça é imparcial e benevolente. Este arcano é severo, mas é necessário entendê-lo como o sentido nobre do termo. Em sua severidade, há alguma coisa que, no final, se prova positiva. Ela encoraja a permanecer íntegro, honesto e correto, mesmo que as circunstâncias incitem a ultrapassar os limites. Ela passa a mensagem de que, se permanecermos íntegros, o sucesso estará em nosso caminho, aconteça o que acontecer e mesmo que leve algum tempo. ",
         "help": "",
         "src": ""
 
@@ -72,7 +72,7 @@
     {
         "name": "O Eremita",
         "number": "09",
-        "description": "",
+        "description": " Carta de movimento lento e profundo, então, não é preciso esperar acontecimentos brilhantes e cintilantes. Positivo por natureza, este arcano exprime tudo que é destinado a evoluir, mas as coisas são feitas de maneira particularmente lenta. Ela exprime a solidão que é benéfica e que preserva o consultante daquilo que seria prejudicial. Ela encoraja a ver a solidão através de um olhar positivo, pois ela pressagia alguma coisa boa no futuro. Ela também evita aborrecimentos ao consultante no presente. Em um período pouco emocionante, ela encoraja a cultivar a fé em si mesmo e no que vai acontecer. Ela também aconselha a viver um período de espera e de solidão como uma ocasião benéfica de ir em direção a um caminho meditativo, a fim de se conhecer. Ela encoraja a ir pelo caminho da verdade e da compreensão para que as ambições sejam justas, reais e essenciais. Esta carta pressagia momentos difíceis de solidão, mas que se revelarão extremamente benéficos. ",
         "help": "",
         "src": ""
 
@@ -80,7 +80,7 @@
     {
         "name": "Roda Da Fortuna",
         "number": "10",
-        "description": "",
+        "description": "    Esta carta exprime que, na existência, tudo está em movimento, que nada é imóvel, nem fixo. Ela evoca a ascensão e a queda, os altos e baixos que deixam a existência rica de ensinamentos, de acasos, de evolução. Ela exprime que as situações e as pessoas se movem, mudam, evoluem. Nada é fixo no universo, nem aqui embaixo. Esta roda da fortuna exprime que a roda gira, tanto na boa direção, quanto na má. Ela exprime a sorte, a má sorte, a prosperidade, a ruína. Em alguns aspectos, ela exprime a fatalidade, que, dependendo das faculdades de adaptação da pessoa, pode se tornar positiva ou negativa. Esta carta evoca as variações do destino. Ela simboliza a mudança na qual o futuro será subordinado às capacidades e às reações daquele que o enfrentar. Um espírito aberto e reativo saberá identificar a sorte que passa e aproveitá-la. Um espírito fechado e passivo não a verá e continuará lamentando seu destino. ",
         "help": "",
         "src": ""
 
@@ -88,7 +88,7 @@
     {
         "name": "A Força ",
         "number": "11",
-        "description": "",
+        "description": "    A força é representada não por um guerreiro musculoso, mas por uma mulher para exprimir o poder em seu aspecto feminino. Esta carta evoca o poder suave, voluntário, determinado e firme, que sabe aquilo que quer, como agir e alcança seus objetivos. Ela exprime a vitalidade existente em cada ser humano que vai ao trabalho assim que os acontecimentos ou as situações exigem. Ela simboliza a energia suprema e inesperada que vem das profundezas do ser, que é formidável, poderosa e deslumbrante assim que entra em ação. A força é bruta, violenta, agressiva, intransigente, orgulhosa, frágil, incoerente e destruidora quando não canalizada. Ela é sutil, fina, triunfante, evolutiva, construtiva, protetora, perseverante e resistente quando controlada. Ela evoca a sinceridade, a fidelidade, a motivação e também os jogos de poder, a inveja, a possessividade e o abuso de poder.",
         "help": "",
         "src": ""
 
@@ -96,7 +96,7 @@
     {
         "name": "O Enforcado",
         "number": "12",
-        "description": "",
+        "description": "    Esta carta evoca a impotência diante de uma situação. Ela traduz o sentimento de estar com pés e mãos atadas sem poder fazer nada. Ela exprime as situações que não são controladas pelo consultante e contra as quais ele não pode agir. Ela diz que não adianta procurar influencias as pessoas ou os acontecimentos. Ela evoca a desistência, a renúncia. Ela exprime uma sensação de solidão em face à impossibilidade de agir, que pode chegar à dor e ao pânico. Ela diz que não adianta lutar. A sabedoria seria de aproveitar esta pausa imposta pelos acontecimentos para refletir sobre uma situação, sobre as coisas. Ela exprime que a hora de agir ainda não chegou. Com esta carta, uma fase de espera, de imobilidade e de atraso está em execução. Ela encoraja a aceitar o destino como ele se apresenta, a demonstrar devoção sem esperar nada em troca. Carta do desapego e do sacrifício, o Enforcado exprime uma passagem obrigatória que pressagia uma melhoria futura. ",
         "help": "",
         "src": ""
 
@@ -104,7 +104,7 @@
     {
         "name": "Morte",
         "number": "13",
-        "description": "",
+        "description": "    Eis um arcano que suscita muitos medos e que também pressagia uma nova vida bem mais enriquecedora. A carta exprime a transformação ocorrida depois de um período de crise intensa. Esta carta pode suscitar um certo medo, pois ela pressagia uma situação muito ruim. Não significa que a pessoa te que viver na miséria, mas ela deve terminar uma situação ou um modo de vida que, na verdade, é prejudicial, apesar das aparências. Com esta carta, os acontecimentos são inevitáveis. Quanto mais a pessoa em questão os recusar, mais os acontecimentos positivos demorarão a se concretizar. Ela encoraja, então, mesmo que seja mais fácil falar do que fazer, aceitar aquilo que acaba, que termina e que é interrompido, pois, por trás das decepções, alguma coisa se esconde, uma situação e um futuro bem melhor e mais construtivo. Com este arcano, aquilo que acaba não era sólido, não tinha um sentido real, futuro e era construído sobre falsos valores. Portanto, não é preciso ter arrependimentos. ",
         "help": "",
         "src": ""
 
@@ -112,7 +112,7 @@
     {
         "name": "Temperança ",
         "number": "14",
-        "description": "",
+        "description": "    Esta carta simboliza a tranquilidade, a paz, a harmonia, o alívio, o reconforto. A Temperança representa a metamorfose interior, a regeneração que vem, normalmente, depois de uma provação, uma crise, um momento difícil. Ela expressa as sensações de bem-estar que se instalam e que são apreciadas. Ela evoca que os medos são superados, transmutados. A pessoa sente uma nova autoconfiança, segura, estável e determinada. Esta carta exprime que as provações e as dificuldades serão assimiladas e superadas. Graças aos momentos ruins, a pessoa é tolerante, compreensiva, calma, séria e sabe se adaptar às circunstâncias. Ela traduz uma forma de abertura espiritual que dá uma visão mais suave e serena da vida e das pessoas. A sociabilidade está em alta. A vontade de colaborar, de compartilhar, de doar sem esperar nada em troca toma forma. A pessoa se sente mais livre, no sentido emotivo, afetivo e prático.",
         "help": "",
         "src": ""
 
@@ -120,7 +120,7 @@
     {
         "name": "O Diabo",
         "number": "15",
-        "description": "",
+        "description": "    Esta carta suscita o medo pela noção de mal que ela implica. Além disso, esta carta simboliza as energias, um magnetismo, uma vontade e uma inteligência fora do comum. Se bem utilizado, este potencial é bem criativo. Ele engatilhará acontecimentos positivos de maneira misteriosa ou irracional. Ele incitará a provocar mudanças completamente inesperadas. Ele criará sentimentos intensos, encorajará a correr riscos calculados que levarão diretamente ao sucesso, à conquista, aos picos. Mal utilizado, esse potencial se tornará destruidor, incontrolável. Ele levará ao ciúme, à possessividade, ao abuso de poder, à dependência. Esta carta também evoca os impulsos da pessoa em questão e a maneira como ela os controla. Ela exprime os medos enterrados das pessoas, que voltam à superfície com seus efeitos colaterais. Ela revela o aspecto sombrio do ser, que inquieta e gera dúvidas que devem ser esclarecidas. ",
         "help": "",
         "src": ""
 
@@ -128,7 +128,7 @@
     {
         "name": "A Torre",
         "number": "16",
-        "description": "",
+        "description": "    Enquanto o arcano XIII simboliza o fim, a interrupção para recomeçar de forma melhor, a Casa de Deus é um aviso ou uma punição que deixa a pessoa em alerta em relação a sua imprudência, seu comportamento. Esta carta evoca o perigo, os riscos que não devem ser subestimados. Ela exprime que se desafiarmos o destino, as pessoas ou os acontecimentos, a queda será inevitável. Ela envia alertas que podem se traduzir por dores, momentos muito ruins, um conflito difícil ou uma ruptura com o objetivo de fazer com que a pessoa se controle. Este arcano é ilustrado por uma torre, da qual o telhado cai, mas as fundações permanecem intactas. Dois personagens, um cai de cabeça e o outro está no chão. Isso significa que nada está completamente perdido para aquele que sabe parar na hora certa, corrigir seus erros, rever suas ambições e diminui-las. Esta carta, então, adverte sobre um excesso de orgulho, ambições desmedidas, certezas obsoletas, pretensões absurdas. ",
         "help": "",
         "src": ""
 
@@ -136,7 +136,7 @@
     {
         "name": "A estrela",
         "number": "17",
-        "description": "",
+        "description": "    Este arcano evoca a Boa Estrela, aquela que protege, aquela na qual a pessoa acredita. Acreditar em sua Boa Estrela revela uma abertura de espírito àquilo que é irracional, intuitivo, benéfico, luminoso. Esta carta exprime o sentimento da crença em alguma coisa mágica, que brilha e que faz bem. Ela evoca a intuição, os sentimentos. Ela abre para a dimensão do destino que faz com que se mantenha uma esperança otimista graças à qual tudo funciona. De um ponto de vista mais pragmático, esta carta evoca a suavidade, a gentileza, a sinceridade, o romantismo, o carinho, a disponibilidade. Ela anuncia que as dificuldades se acalmarão. Com esta carta, os projetos que estavam em espera vão se realizar. O futuro se apresenta em seu melhor dia. Ela não anuncia mudanças incríveis, mas garante que o bem-estar será reinstalado na existência. Depois de momentos difíceis, a pessoa em questão poderá respirar e se recarregar. Depois de um período de esforços, a hora da recompensa é anunciada por este arcano.",
         "help": "",
         "src": ""
 
@@ -144,7 +144,7 @@
     {
         "name": "A Lua ",
         "number": "18",
-        "description": "",
+        "description": "    Este arcano simboliza as emoções, a sensibilidade, o imaginário, a intuição e, por extensão, o mundo da infância, o passado, a família. Bem vividas, suas influências são benéficas para o consultante. Seus sentimentos são guias excelentes. Eles exprimem muito carinho, compaixão e empatia, que contribuem para criar uma atmosfera reconfortante. Ela evoca amizades de longa data que são fontes de reconforto, de bons momentos. Ela exprime a família do consultante, que é seu pilar, sua fonte de energia, de conforto, de apoio. Mal vividas, suas influências se transformam em dúvidas, em incertezas. O imaginário prega peças no consultante, faz com que ele se perca nas ilusões. Os acontecimentos e os choques do passado deixaram uma marca emocional negativa. Os laços familiares e os não-ditos pairam e criam uma atmosfera pesada. O consultante ainda está ligado ao passado e isso dificulta a expansão de seu futuro e as possibilidades que se apresentam.",
         "help": "",
         "src": ""
 
@@ -152,7 +152,7 @@
     {
         "name": "O Sol",
         "number": "19",
-        "description": "",
+        "description": "    Este arcano evoca, por seu nome e sua ilustração, sensações positivas e benéficas. Ele simboliza a vida, a energia, a iluminação, o brilho. Esta carta evoca a inteligência, o amor, a sinceridade. Iluminadora e prometedora de todos os benefícios, esta carta representa o sucesso, a alegria de viver, a felicidade, o bom humor. Em um sentido mais profundo, ela simboliza a verdade, as revelações, o realce, o esclarecimento. Ela simboliza uma pessoa que consegue harmonizar seus instintos, suas paixões. Com esta carta, os ímpetos emocionais são bem canalizados e levam à expressão dos sentimentos em uma energia construtiva e criativa. Há muita coisa positiva neste arcano, mas ele também exprime alguns defeitos, tais como o orgulho desmedido, uma autoestima excessiva, um sentimento de superioridade que, eventualmente, denigre a imagem do Sol. Também, em seu excesso, o Sol que provoca tanta felicidade pode fazer com que se perca o contato com a realidade e se isole do mundo exterior.",
         "help": "",
         "src": ""
 
@@ -160,7 +160,7 @@
     {
         "name": "O Julgamento",
         "number": "20",
-        "description": "",
+        "description": "    Esta carta simboliza as surpresas, os acontecimentos inesperados, a mudança que chega com felicidade depois de um período difícil. Ela exprime as circunstâncias favoráveis que trazem a confiança de volta, que permitem recomeçar com o pé direito. Ela evoca uma coisa esperada há muito tempo e que chega de maneira completamente repentina e imprevista. O Julgamento é a novidade, o projeto, o encontro, o trabalho, esperanças, sonhos que chegam por circunstâncias imprevisíveis. Este arcano evoca os telefonemas, as cartas, os e-mails, os sms que abrem novas perspectivas que fazem com que se veja a vida com novas cores. Este arcano também exprime um momento decisivo na vida do consultante, que ele deverá negociar rapidamente e que ele não deve deixar passar. Esta carta simboliza a independência, a liberdade de ação, o retorno ao passado cheio de boas intenções. Ela também simboliza, para aqueles que têm esta sensibilidade, a proteção do destino que, assim que ela começa a agir, resolve as dificuldades para aquele que sabe reagir bem e rapidamente.",
         "help": "",
         "src": ""
 
@@ -168,7 +168,7 @@
     {
         "name": "O Mundo",
         "number": "21",
-        "description": "",
+        "description": "    Último arcano numerado do Tarô, esta carta é a melhor do jogo. Seja qual for o domínio em questão, o sucesso é garantido. Ela pressagia um futuro radiante e muito promissor. Ela destaca que todos os obstáculos foram contornados, todas as provações foram superadas. Ela evoca que, ao longo das alegrias, das felicidades, das dores, das tristezas, das dúvidas, das experiências, o consultante evoluiu em seu caminho. Ele pode, então, desfrutar dos bons momentos da vida, descansar, se divertir, saborear seu sucesso. A certeza se instala sem sombra de dúvida. O consultante beneficia da cumplicidade do destino e das circunstâncias que lhe são favoráveis. Este arcano evoca a recompensa dos esforços que foram feitos em qualquer que seja o domínio em questão. Com esta carta no jogo, as afeições e os sentimentos são sinceros, renovados. Os objetivos são alcançados. Esta carta simboliza tudo que está ligado ao sucesso, à conquista e à sorte. O consultante está em um estado de graça, no qual ele tudo consegue. Com esta carta, as amizades, os relacionamentos e os amores são sinceros, sólidos, certos e autênticos.",
         "help": "",
         "src": ""
 

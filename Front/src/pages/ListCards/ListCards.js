@@ -13,8 +13,8 @@ export default StyleSheet.create({
     //Vertical Align
     justifyContent: 'center',
     //Horizontal Align
-    alignItems: 'stretch',
-    backgroundColor: Colors.grey
+    alignItems: 'center',
+    backgroundColor: Colors.grey,
     //padding: 0
   },
   clickContent: {

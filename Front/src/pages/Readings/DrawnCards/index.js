@@ -79,7 +79,7 @@ class DrawnCards extends Component {
                         <Bars size={10} color="#111110" />
 
                         :
-                        <View>                            
+                        <View >                            
                            <Carousel
                                 ref={(c) => { this._carousel = c; }}
                                 data={this.state.cardsData}

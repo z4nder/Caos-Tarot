@@ -7,15 +7,14 @@ export default StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: 'red'
   },
-  content: {
+  content: {   
     flex: 1,
     flexDirection: 'row',
     //Vertical Align
     justifyContent: 'center',
     //Horizontal Align
     alignItems: 'center',
-    backgroundColor: Colors.grey
-    //padding: 0
+    backgroundColor: Colors.grey,
   },
   button: {
     flex: 1,
@@ -26,13 +25,11 @@ export default StyleSheet.create({
   },
   clickContent: {
     width: '100%', 
-    height: '95%',
-    margin: 10
-  },
-  numberInput: {
-    padding: 10,
-    height: 40,
-    borderColor: 'gray', 
-    borderWidth: 1
-  }
+    height: '80%',
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10
+  },  
 });
