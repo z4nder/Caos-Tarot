@@ -9,6 +9,7 @@ import { Fonts, Colors } from './Themes'
 import NumberOfCards from './pages/Readings/NumberOfCards';
 import DrawnCards from './pages/Readings/DrawnCards';
 import ListCards from './pages/ListCards/';
+import SelectYourDeck from './pages/SelectYourDeck';
 const Tab = createBottomTabNavigator()
 const Stack = createStackNavigator()
 
@@ -57,6 +58,7 @@ export default function Routes() {
             >
                 <Tab.Screen name="Nova Tiragem" component={DrawnSteps} />
                 <Tab.Screen name="Todas Cartas" component={ListCards} />
+                <Tab.Screen name="Escolher Deck" component={SelectYourDeck} />
             </Tab.Navigator>
             
         </NavigationContainer>
